@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   appName = 'blog app';
 
-  getName()
+  getName(name:string)
   {
-    alert('Mark Robert');
+    alert(name);
   }
 }
