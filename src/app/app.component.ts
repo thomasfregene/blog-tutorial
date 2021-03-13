@@ -7,13 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'blog app';
+  name = 'bruce';
+  disableBox = true
 
-  currentVal = "";
-
-  getVal(val:any)
-  {
-    console.warn(val);
-
-    this.currentVal = val
+  enableBox(){
+    this.disableBox = false
   }
 }
