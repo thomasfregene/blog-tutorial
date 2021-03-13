@@ -1,9 +1,12 @@
 <h1>conditions in Angular</h1>
 
-<h2 *ngIf="show else elseBlock">
+<h2 *ngIf="show=='yes'; then ifBlock else elseBlock">
     If block
 </h2>
 
+<ng-template #ifBlock>
+    <h2>if block</h2>
+</ng-template>
 <ng-template #elseBlock>
     <h2>else block</h2>
 </ng-template>
