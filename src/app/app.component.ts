@@ -7,18 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   appName = 'blog app';
-  name = 'bruce';
-
-  getName(){
-    return this.name;
-  }
-
-  obj={
-    name: 'Kelly',
-    age: 20
-  }
-
-  arr=['bruce', 'kelly', 'john'];
-
-  siteUrl = window.location.href;
 }
