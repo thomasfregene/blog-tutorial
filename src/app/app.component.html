@@ -3,4 +3,4 @@
 <button (click)="myEvent('This is a click event')">Click Me</button>
 
 <br> <br>
-<input type="text" #box (keyup)="myEvent(box.value)">
+<input type="text" #box (keydown)="myEvent(box.value)">
