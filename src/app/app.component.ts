@@ -9,8 +9,8 @@ export class AppComponent {
   appName = 'blog app';
   myName = 'Mike'
 
-  getName(name:string)
+  myEvent(event:any)
   {
-    alert(name);
+    console.warn(event);
   }
 }
