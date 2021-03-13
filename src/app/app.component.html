@@ -4,3 +4,6 @@
 
 <br> <br>
 <input type="text" #box (keyup.space)="myEvent(box.value)">
+
+<br> <br>
+<input type="text" #box (blur)="myEvent('blur event')">
