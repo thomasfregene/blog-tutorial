@@ -7,3 +7,15 @@
 
 <br> <br>
 <input type="text" #box (blur)="myEvent('blur event')">
+
+<h1 
+(mouseover)="myEvent('mouseover event')"
+style="background-color: skyblue;">
+    mouse event
+</h1>
+
+<h1 
+(mouseleave)="myEvent('mouseleave event')"
+style="background-color: red;">
+    mouse event
+</h1>
