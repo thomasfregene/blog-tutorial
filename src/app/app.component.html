@@ -1,8 +1,12 @@
-<h1>Property Binding in Angular</h1>
+<h1>conditions in Angular</h1>
 
-<input type="text" [disabled] = "disableBox" [value]="name">
-<br> <br>
-<input type="text" [disabled] = "disableBox" value={{name}}>
-<br> <br>
-<button (click)="enableBox()">Enable TextBox</button>
+<h2 *ngIf="show else elseBlock">
+    If block
+</h2>
+
+<ng-template #elseBlock>
+    <h2>else block</h2>
+</ng-template>
+
+
 
