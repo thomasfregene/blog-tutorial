@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   appName = 'blog app';
+  myName = 'Mike'
 
   getName(name:string)
   {
