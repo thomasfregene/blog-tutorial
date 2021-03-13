@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   appName = 'blog app';
+
+  getName()
+  {
+    alert('Mark Robert');
+  }
 }
