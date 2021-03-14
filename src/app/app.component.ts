@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'blog app';
-  color = "purple";
+  data = ['anil', 'kelly', 'sam', 'phil'];
 }
