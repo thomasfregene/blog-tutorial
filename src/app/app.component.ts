@@ -7,9 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'blog app';
+  color="red";
+  err=true;
 
-  getValues(val:any)
-  {
-    console.log(val)
+  updateColor(){
+    this.err=!this.err;
   }
 }
