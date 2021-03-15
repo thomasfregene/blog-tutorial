@@ -1,5 +1,8 @@
 <h1>Reusable Component in Angular</h1>
-<app-user [hero]="users"></app-user>
+<div *ngFor="let user of users">
+    <app-user [hero]="user"></app-user>
+</div>
+
 
 
 
