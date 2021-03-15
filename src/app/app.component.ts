@@ -7,10 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'blog app';
-  color="red";
-  err=true;
-
-  updateColor(){
-    this.err=!this.err;
+  users={
+    name: 'Mark',
+    age: 22,
+    address: 'New York'
   }
 }
